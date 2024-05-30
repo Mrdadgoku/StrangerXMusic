@@ -30,14 +30,14 @@ SONG_DOWNLOAD_DURATION = int(
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001603822916"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002193745275"))
 
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Alone X Music")
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "6079943111").split())
+    map(int, getenv("OWNER_ID", "6462365139").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -59,10 +59,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", "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")
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", None
-)  # Example:- https://t.me/sparrow96160
+)  # Example:- https://t.me/Goku_Modz
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", "https://t.me/AlonesHeaven"
-)  # Example:- https://t.me/strangersupport
+    "SUPPORT_GROUP", "https://t.me/BEST_FRIEND_FOREVER1230"
+)  # Example:- https://t.me/BEST_FRIEND_FOREVER1230
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
